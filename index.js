@@ -17,6 +17,4 @@ client.on('message', (message) => {
     message.channel.send('청라이');
   }
 });
-
-});
 client.login(token);
