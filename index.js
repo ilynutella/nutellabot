@@ -18,9 +18,5 @@ client.on('message', (message) => {
   }
 });
 
-client.on('message', (message) => {
-  if(message.content === '블바') {
-    message.channel.send('픽보');
-  }
 });
 client.login(token);
