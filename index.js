@@ -19,14 +19,14 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-    if(message.content === '세바') {
-      message.channel.send('렌보');
-    }
-  });
+  if(message.content === '세바') {
+    message.channel.send('렌보');
+  }
+});
 
-  client.on('message', (message) => {
-    if(message.content === '마바') {
-      message.channel.send('다보');
-    }
-  });
+client.on('message', (message) => {
+  if(message.content === '마바') {
+    message.channel.send('다보');
+  }
+});
 client.login(token);
