@@ -28,10 +28,11 @@ client.on('message', (message) => {
   if(message.content === '마바') {
     message.channel.send('다보');
   }
+});
 
 client.on('message', (message) => {
   if(message.content === '김정은') {
     message.channel.send('돼지쉑');
-
+  }
 });
 client.login(token);
