@@ -31,6 +31,12 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
+  if(message.content === '배부른') {
+    message.channel.send('햄스터');
+  }
+});
+
+client.on('message', (message) => {
   if(message.content === '김정은') {
     message.channel.send('돼지쉑');
   }
